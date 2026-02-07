@@ -1,0 +1,16 @@
+{
+  "name": "dnd_manager",
+  "version": "1.0.0",
+  "description": "Dungeons & Dragons manager to control character sheets, resources, etc.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allan Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
+  }
+}
